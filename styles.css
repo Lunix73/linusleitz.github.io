@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
