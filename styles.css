@@ -1,3 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2725B;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -19,4 +29,20 @@ li a {
 body {
     display: flex;
     flex-direction: column;
+}
+
+.para-arbete {
+    width: 100%;
+    height: 600px;
+    background: url(images/mekande.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.para-fritid {
+    width: 100%;
+    height: 600px;
+    background: url(images/piano.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
